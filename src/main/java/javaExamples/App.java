@@ -3,12 +3,57 @@
  */
 package javaExamples;
 
+import com.google.common.io.Files;
+import javaExamples.utils.Xmls;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.util.HashMap;
+import java.util.Map;
+
 public class App {
+//    private enum State {PRINT,READING_TOKEN, END_READING_TOKEN};
+//    private static final Map<String, String> DICTIONARY = new HashMap<>();
+//    static {
+//        DICTIONARY.put("lt","<");
+//        DICTIONARY.put("gt",">");
+//        DICTIONARY.put("amp","&");
+//        DICTIONARY.put("apos","'");
+//        DICTIONARY.put("quot","\"");
+//    }
+
     public String getGreeting() {
         return "Hello world.";
     }
+//    public static void main(String[] args) {
+//        System.out.println(new App().getGreeting());
+//    }
+//    private static State getState(char character, State currentState) {
+//        switch (character) {
+//            case '&':
+//                return State.READING_TOKEN;
+//            case ';':
+//                if (currentState == State.READING_TOKEN) {
+//                    return State.END_READING_TOKEN;
+//                } else {
+//                    return currentState;
+//                }
+//            default:
+//                if (currentState == State.READING_TOKEN) {
+//                    return currentState;
+//                } else {
+//                    return State.PRINT;
+//                }
+//        }
+//    }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        String toEvaluate = "&lt;Messages&gt;";
+        System.out.println(Xmls.unescape(toEvaluate));
+
     }
+
 }
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAPSDK1:displayMessagesResponse xmlns:SOAPSDK1="http://tempuri.org/message/"><Result>&lt;collection type=&quot;Messages&quot; totalRecords=&quot;2&quot;&gt;
+
+    &lt;Messages&gt;
+
+    &lt;message&gt;
+
+    &lt;msgData&gt;&lt;![CDATA[&lt;p&gt;
+    CAS Performance Phase 1 has been deployed to this server or environment.&lt;/p&gt;
+    ]]&gt;&lt;/msgData&gt;
+
+    &lt;msgDesc&gt;&lt;![CDATA[CAS Performance Phase 1]]&gt;&lt;/msgDesc&gt;
+
+    &lt;/message&gt;
+
+    &lt;message&gt;
+
+    &lt;msgData&gt;&lt;![CDATA[&lt;p&gt;
+    &lt;span style=&quot;color: rgb(68, 68, 68); font-family: verdana, helvetica, arial, sans-serif; font-size: 12.8px;&quot;&gt;CAS Performance Phase 2 has been deployed to this server or environment.&lt;/span&gt;&lt;/p&gt;
+    ]]&gt;&lt;/msgData&gt;
+
+    &lt;msgDesc&gt;&lt;![CDATA[CAS Performance Phase 2]]&gt;&lt;/msgDesc&gt;
+
+    &lt;/message&gt;
+
+    &lt;/Messages&gt;
+
+    &lt;/collection&gt;
+
+</Result></SOAPSDK1:displayMessagesResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

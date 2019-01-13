@@ -1,0 +1,8 @@
+@startuml
+[*] -down-> PRINT: any
+[*] -down-> READING_TOKEN: &
+READING_TOKEN -down-> READING_TOKEN: any
+READING_TOKEN -down-> END_READING_TOKEN: ;
+END_READING_TOKEN -down-> PRINT: any
+PRINT --> [*]
+@enduml
