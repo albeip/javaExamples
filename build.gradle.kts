@@ -16,5 +16,5 @@ dependencies {
 }
 
 application {
-    mainClassName = "javaExamples.App"
+    mainClassName = "javaExamples.Application"
 }
